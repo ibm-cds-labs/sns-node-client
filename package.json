@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibm-cds-labs/sns-node-client.git"
+    "url": "git+https://github.com/MattCollins84/sns-node-client.git"
   },
   "author": "Matt Collins <matt@strikesandgutters.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ibm-cds-labs/sns-node-client/issues"
+    "url": "https://github.com/MattCollins84/sns-node-client/issues"
   },
-  "homepage": "https://github.com/ibm-cds-labs/sns-node-client#readme",
+  "homepage": "https://github.com/MattCollins84/sns-node-client#readme",
   "dependencies": {
     "socket.io-client": "^1.7.2"
   }
