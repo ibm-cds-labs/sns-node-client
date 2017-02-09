@@ -4,7 +4,7 @@
   "description": "A Node.JS client for the Simple Notification Service",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/ibm-cds-labs/sns-node-client#readme",
   "dependencies": {
     "socket.io-client": "^1.7.2"
+  },
+  "devDependencies": {
+    "async": "^2.1.4",
+    "mocha": "^3.2.0",
+    "simple-notification-service": "^2.0.3"
   }
 }

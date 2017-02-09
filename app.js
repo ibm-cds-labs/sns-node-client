@@ -8,7 +8,7 @@ const url = require('url');
 // socket.on('event', function(data){});
 // socket.on('disconnect', function(){});
 
-const SNSClient = (opts = {}) => {
+const SNSClient = function(opts) {
 
   if (typeof opts.authentication !== "object" || opts.authentication === null) {
     throw 'SNS: invalid authentication object provided';
